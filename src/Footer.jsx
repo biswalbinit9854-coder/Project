@@ -84,7 +84,7 @@ function Footer() {
             </div>
 
             <p className="text-center mt-16">
-                © 2026 Bennett's Vet. All rights reserved.
+                © 2026 Bennett's Vet By react & tailwind css.
             </p>
 
         </footer>
