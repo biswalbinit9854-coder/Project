@@ -61,7 +61,8 @@ function Contact() {
                             <input
                                 type="text"
                                 placeholder="Enter your name"
-                                className="border p-3 rounded-lg w-52"
+                                className="border p-3 rounded-lg w-52  transition-all duration-300 ease-in-out
+                hover:scale-110"
                                 value={name}
                                 onChange={(e) => setName(e.target.value)}
                             />
@@ -74,7 +75,8 @@ function Contact() {
                             <input
                                 type="email"
                                 placeholder="Enter your email"
-                                className="border p-3 rounded-lg w-52"
+                                className="border p-3 rounded-lg w-52  transition-all duration-300 ease-in-out
+                hover:scale-110"
                                 value={email}
                                 onChange={(e) => setEmail(e.target.value)}
                             />
@@ -88,7 +90,8 @@ function Contact() {
 
                         <textarea
                             placeholder="Your message..."
-                            className="border p-3 rounded-lg w-full h-40 resize-none"
+                            className="border p-3 rounded-lg w-full h-40 resize-none  transition-all duration-300 ease-in-out
+                hover:scale-110"
                             value={message}
                             onChange={(e) => setMessage(e.target.value)}
                         ></textarea>
@@ -97,7 +100,8 @@ function Contact() {
 
                     <button
                         onClick={handleSubmit}
-                        className="bg-sky-400 hover:bg-sky-500 text-white w-full py-3 rounded-full mt-6 text-xl cursor-pointer transition duration-300"
+                        className="bg-sky-400 hover:bg-sky-500 text-white w-full py-3 rounded-full mt-6 text-xl cursor-pointer transition-all duration-300 ease-in-out
+                hover:scale-110"
                     >
                         Submit
                     </button>

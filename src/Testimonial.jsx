@@ -10,10 +10,11 @@ function Testimonials() {
       </h1>
 
 
-      <div className="flex justify-center gap-8 flex-wrap">
+      <div className="flex justify-center gap-8">
 
 
-        <div className="bg-white w-80 p-6 rounded-2xl shadow">
+        <div className="bg-white w-80 p-6 rounded-2xl shadow  transition-all duration-300 ease-in-out
+                hover:scale-110">
 
           <div className="flex items-center gap-4">
             <img
@@ -37,7 +38,8 @@ function Testimonials() {
         </div>
 
 
-        <div className="bg-white w-80 p-6 rounded-2xl shadow">
+        <div className="bg-white w-80 p-6 rounded-2xl shadow  transition-all duration-300 ease-in-out
+                hover:scale-110">
 
           <div className="flex items-center gap-4">
             <img
@@ -60,7 +62,8 @@ function Testimonials() {
         </div>
 
 
-        <div className="bg-white w-80 p-6 rounded-2xl shadow">
+        <div className="bg-white w-80 p-6 rounded-2xl shadow  transition-all duration-300 ease-in-out
+                hover:scale-110">
 
           <div className="flex items-center gap-4">
             <img

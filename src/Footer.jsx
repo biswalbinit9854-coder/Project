@@ -39,9 +39,12 @@ function Footer() {
                     </p>
 
                     <div className="flex gap-5 text-3xl">
-                        <FaFacebook />
-                        <FaInstagram />
-                        <FaYoutube />
+                        <FaFacebook  className=" transition-all duration-300 ease-in-out
+                hover:scale-110"/>
+                        <FaInstagram className=" transition-all duration-300 ease-in-out
+                hover:scale-110" />
+                        <FaYoutube className=" transition-all duration-300 ease-in-out
+                hover:scale-110"/>
                     </div>
 
                 </div>

@@ -19,23 +19,28 @@ function WhyChooseUs() {
 
       <div className="flex flex-col items-center gap-5">
 
-        <div className="bg-sky-500 text-white px-10 py-4 rounded-lg text-2xl font-bold flex items-center justify-center gap-2">
+        <div className="bg-sky-500 text-white px-10 py-4 rounded-lg text-2xl font-bold flex items-center justify-center gap-2  transition-all duration-300 ease-in-out
+                hover:scale-110">
           <CiStethoscope />  EXPERT CARE
         </div>
 
-        <div className="bg-orange-500 text-white px-10 py-4 rounded-lg text-2xl font-bold flex items-center justify-center gap-2">
+        <div className="bg-orange-500 text-white px-10 py-4 rounded-lg text-2xl font-bold flex items-center justify-center gap-2  transition-all duration-300 ease-in-out
+                hover:scale-110">
           <IoIosLaptop /> TOP EQUIPMENT
         </div>
 
-        <div className="bg-green-500 text-white px-10 py-4 rounded-lg text-2xl font-bold flex items-center justify-center gap-2">
+        <div className="bg-green-500 text-white px-10 py-4 rounded-lg text-2xl font-bold flex items-center justify-center gap-2  transition-all duration-300 ease-in-out
+                hover:scale-110">
           <GiReceiveMoney /> AFFORDABLE
         </div>
 
-        <div className="bg-purple-500 text-white px-10 py-4 rounded-lg text-2xl font-bold flex items-center justify-center gap-2">
+        <div className="bg-purple-500 text-white px-10 py-4 rounded-lg text-2xl font-bold flex items-center justify-center gap-2  transition-all duration-300 ease-in-out
+                hover:scale-110">
           <IoHeart /> COMPASSIONATE CARE
         </div>
 
-        <div className="bg-yellow-500 text-white px-10 py-4 rounded-lg text-2xl font-bold flex items-center justify-center gap-2">
+        <div className="bg-yellow-500 text-white px-10 py-4 rounded-lg text-2xl font-bold flex items-center justify-center gap-2  transition-all duration-300 ease-in-out
+                hover:scale-110">
           <FaClock /> FAST SERVICE
         </div>
 

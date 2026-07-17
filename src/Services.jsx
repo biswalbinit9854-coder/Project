@@ -41,7 +41,8 @@ function Services() {
         </div>
         <h5 className='font-bold text-3xl mt-6'>DENTAL CARE</h5>
         <p className='text-lg mt-4'>Immediate care for urgent situations to provide quick relif.</p>
-        <button className='mt-8 bg-sky-400 hover:bg-sky-500 text-white px-8 py-3 rounded-full text-xl cursor-pointer'> Book an appointment </button>
+        <button className='mt-8 bg-sky-400 hover:bg-sky-500 text-white px-8 py-3 rounded-full text-xl cursor-pointer transition-all duration-300 ease-in-out
+                hover:scale-110'> Book an appointment </button>
       </div>
     </section>
   );

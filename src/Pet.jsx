@@ -11,7 +11,7 @@ function Pets() {
         </div>
 
 
-        <div className="bg-sky-300 rounded-t-full w-72 h-[450px] flex items-end justify-center">
+        <div className="bg-sky-300 rounded-t-full w-72 h-[460px] flex items-end justify-center">
           <img src={"https://thumbs.dreamstime.com/b/portrait-month-old-golden-retriever-male-puppy-dog-seamless-blue-background-young-soft-fluffy-fur-front-239661885.jpg"} alt="Dog" className="w-250 rounded-t-full" />
         </div>
 

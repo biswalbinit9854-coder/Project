@@ -6,7 +6,8 @@ function Navbar() {
       <div className="flex justify-between items-center">
 
 
-        <h1 className="text-3xl font-bold">
+        <h1 className="text-3xl font-bold transition-all duration-300 ease-in-out
+                hover:scale-110">
           Bennett's Vet
         </h1>
 
@@ -49,7 +50,8 @@ function Navbar() {
           </li>
         </ul>
         <div className="flex justify-center text-center">
-          <button className='bg-sky-400 hover:bg-sky-500 text-white px-8 py-3 rounded-full text-xl cursor-pointer'> Book an appointment </button>
+          <button className='bg-sky-400 hover:bg-sky-500 text-white px-8 py-3 rounded-full text-xl cursor-pointer transition-all duration-300 ease-in-out
+                hover:scale-110'> Book an appointment </button>
         </div>
       </div>
     </nav>
