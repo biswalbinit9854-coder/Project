@@ -33,39 +33,47 @@ function FAQ() {
   ];
 
   return (
-    <section id="faq"
-      className="bg-[#FAF6EF] py-20 px-6">
+    <section
+      id="faq"
+      className="bg-[#FAF6EF] py-12 md:py-20 px-4 sm:px-6 md:px-8"
+    >
       <div className="max-w-6xl mx-auto">
 
-        <h1 className="text-5xl font-bold text-center mb-12">
+
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-10 md:mb-12 leading-tight">
           FREQUENTLY ASKED <br />
           QUESTIONS
         </h1>
 
+
         {faq.map((item, index) => (
           <div
             key={index}
-            className="border border-black rounded-xl p-6 mb-5"
+            className="border border-black rounded-xl p-4 sm:p-5 md:p-6 mb-4 md:mb-5"
           >
-            {/* Question */}
+
             <div
-              className="flex justify-between items-center cursor-pointer"
+              className="flex justify-between items-center gap-4 cursor-pointer"
               onClick={() => setOpen(open === index ? -1 : index)}
             >
-              <h2 className="text-3xl font-semibold">
+              <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold">
                 {item.question}
               </h2>
 
               {open === index ? (
-                <IoChevronUp size={30} />
+                <IoChevronUp
+                  className="text-xl sm:text-2xl md:text-3xl flex-shrink-0"
+                />
               ) : (
-                <IoChevronDown size={30} />
+                <IoChevronDown
+                  className="text-xl sm:text-2xl md:text-3xl flex-shrink-0"
+                />
               )}
             </div>
 
-            {/* Answer */}
+
             {open === index && (
-              <p className="mt-4 text-xl text-gray-700">
+              <p className="mt-4 text-sm sm:text-base md:text-lg lg:text-xl text-gray-700 leading-relaxed">
                 {item.answer}
               </p>
             )}
